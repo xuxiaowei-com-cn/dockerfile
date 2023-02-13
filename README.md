@@ -34,12 +34,12 @@
 1. 不同时间创建的仓库
 
 ```shell
-git submodule add -b main https://gitee.com/xuxiaowei-com-cn/dragonwell8.git dragonwell8
-git submodule add -b main https://gitee.com/xuxiaowei-com-cn/dragonwell11.git dragonwell11
-git submodule add -b main https://gitee.com/xuxiaowei-com-cn/dragonwell17.git dragonwell17
-git submodule add -b main https://gitee.com/xuxiaowei-com-cn/git.git git
-git submodule add -b main https://gitee.com/xuxiaowei-com-cn/gitlab-runner-helper.git gitlab-runner-helper
-git submodule add -b main https://gitee.com/xuxiaowei-com-cn/svn.git svn
+git submodule add -b main ../dragonwell8.git dragonwell8
+git submodule add -b main ../dragonwell11.git dragonwell11
+git submodule add -b main ../dragonwell17.git dragonwell17
+git submodule add -b main ../git.git git
+git submodule add -b main ../gitlab-runner-helper.git gitlab-runner-helper
+git submodule add -b main ../svn.git svn
 ```
 
 ## 克隆 clone

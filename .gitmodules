@@ -1,24 +1,24 @@
 [submodule "dragonwell8"]
 	path = dragonwell8
-	url = https://gitee.com/xuxiaowei-com-cn/dragonwell8.git
+	url = ../dragonwell8.git
 	branch = main
 [submodule "dragonwell11"]
 	path = dragonwell11
-	url = https://gitee.com/xuxiaowei-com-cn/dragonwell11.git
+	url = ../dragonwell11.git
 	branch = main
 [submodule "dragonwell17"]
 	path = dragonwell17
-	url = https://gitee.com/xuxiaowei-com-cn/dragonwell17.git
+	url = ../dragonwell17.git
 	branch = main
 [submodule "git"]
 	path = git
-	url = https://gitee.com/xuxiaowei-com-cn/git.git
+	url = ../git.git
 	branch = main
 [submodule "gitlab-runner-helper"]
 	path = gitlab-runner-helper
-	url = https://gitee.com/xuxiaowei-com-cn/gitlab-runner-helper.git
+	url = ../gitlab-runner-helper.git
 	branch = main
 [submodule "svn"]
 	path = svn
-	url = https://gitee.com/xuxiaowei-com-cn/svn.git
+	url = ../svn.git
 	branch = main
