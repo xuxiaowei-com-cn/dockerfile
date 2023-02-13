@@ -22,3 +22,7 @@
 	path = svn
 	url = ../svn.git
 	branch = main
+[submodule "murphysec"]
+	path = murphysec
+	url = ../murphysec.git
+	branch = main
