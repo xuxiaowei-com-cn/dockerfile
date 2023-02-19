@@ -26,3 +26,7 @@
 	path = murphysec
 	url = ../murphysec.git
 	branch = main
+[submodule "sentinel"]
+	path = sentinel
+	url = ../sentinel.git
+	branch = main
