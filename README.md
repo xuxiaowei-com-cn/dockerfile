@@ -25,9 +25,10 @@
 3. [阿里巴巴 开源 JDK 17 项目 dragonwell17 docker 镜像](https://gitee.com/xuxiaowei-com-cn/dragonwell17.git)
 4. [龙蜥 Anolisos git docker 镜像](https://gitee.com/xuxiaowei-com-cn/git.git)
 5. [registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper Docker 镜像 hub.docker.com 站点](https://gitee.com/xuxiaowei-com-cn/gitlab-runner-helper.git)
-6. [墨菲安全 murphysec docker 版](https://gitee.com/xuxiaowei-com-cn/murphysec.git)
-7. [阿里巴巴 面向云原生微服务的高可用流控防护组件 docker 版](https://gitee.com/xuxiaowei-com-cn/sentinel.git)
-8. [龙蜥 Anolisos Subversion（SVN） docker 镜像](https://gitee.com/xuxiaowei-com-cn/svn.git)
+6. [metrics-server](https://gitee.com/xuxiaowei-com-cn/metrics-server)
+7. [墨菲安全 murphysec docker 版](https://gitee.com/xuxiaowei-com-cn/murphysec.git)
+8. [阿里巴巴 面向云原生微服务的高可用流控防护组件 docker 版](https://gitee.com/xuxiaowei-com-cn/sentinel.git)
+9. [龙蜥 Anolisos Subversion（SVN） docker 镜像](https://gitee.com/xuxiaowei-com-cn/svn.git)
 
 ## 子模块 submodule
 
@@ -41,6 +42,7 @@ git submodule add -b main ../dragonwell11.git dragonwell11
 git submodule add -b main ../dragonwell17.git dragonwell17
 git submodule add -b main ../git.git git
 git submodule add -b main ../gitlab-runner-helper.git gitlab-runner-helper
+git submodule add -b main ../metrics-server.git metrics-server
 git submodule add -b main ../murphysec.git murphysec
 git submodule add -b main ../sentinel.git sentinel
 git submodule add -b main ../svn.git svn

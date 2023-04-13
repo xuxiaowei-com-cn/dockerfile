@@ -30,3 +30,7 @@
 	path = sentinel
 	url = ../sentinel.git
 	branch = main
+[submodule "metrics-server"]
+	path = metrics-server
+	url = ../metrics-server.git
+	branch = main
