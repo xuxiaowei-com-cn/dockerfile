@@ -183,6 +183,24 @@ git.exe push --all --progress "gitlink"
 
 cd ..
 
+cd metrics-server
+
+git fetch "gitee" main:main
+
+git.exe push --all --progress "gitee"
+
+git.exe push --all --progress "gitlab"
+
+git.exe push --all --progress "jihulab"
+
+git.exe push --all --progress "github"
+
+git.exe push --all --progress "gitcode"
+
+git.exe push --all --progress "gitlink"
+
+cd ..
+
 cd murphysec
 
 git fetch "gitee" main:main
