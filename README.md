@@ -69,6 +69,12 @@ git submodule update
 git submodule update --remote
 ```
 
+## 批量切换分支
+
+```shell
+git submodule foreach git checkout main
+```
+
 ## 批量添加远端仓库地址
 
 <details>
