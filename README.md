@@ -106,155 +106,115 @@ git submodule foreach 'git remote add gitlink https://gitlink.org.cn/xuxiaowei-c
 
 <details>
 <summary>点击展开</summary>
-
 git fetch "origin" main:main
-
 cd dragonwell8
-
-git fetch "gitee" main:main
-
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd dragonwell11
-
-git fetch "gitee" main:main
-
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd dragonwell17
-
-git fetch "gitee" main:main
-
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd git
-
-git fetch "gitee" main:main
-
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd gitlab-runner-helper
-
-git fetch "gitee" main:main
-
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
+cd kube-state-metrics
+git fetch "origin" main:main
+git.exe push --all --progress "gitee"
+git.exe push --all --progress "gitlab"
+git.exe push --all --progress "jihulab"
+git.exe push --all --progress "github"
+git.exe push --all --progress "gitcode"
+git.exe push --all --progress "gitlink"
+cd ..
 cd metrics-server
-
-git fetch "gitee" main:main
-
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 cd murphysec
-
-git fetch "gitee" main:main
-
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
+cd prometheus-adapter
+git fetch "origin" main:main
+git.exe push --all --progress "gitee"
+git.exe push --all --progress "gitlab"
+git.exe push --all --progress "jihulab"
+git.exe push --all --progress "github"
+git.exe push --all --progress "gitcode"
+git.exe push --all --progress "gitlink"
+cd ..
+cd prometheus-webhook
+git fetch "origin" main:main
+git.exe push --all --progress "gitee"
+git.exe push --all --progress "gitlab"
+git.exe push --all --progress "jihulab"
+git.exe push --all --progress "github"
+git.exe push --all --progress "gitcode"
+git.exe push --all --progress "gitlink"
+cd ..
+cd sentinel
+git fetch "origin" main:main
+git.exe push --all --progress "gitee"
+git.exe push --all --progress "gitlab"
+git.exe push --all --progress "jihulab"
+git.exe push --all --progress "github"
+git.exe push --all --progress "gitcode"
+git.exe push --all --progress "gitlink"
+cd ..
 cd svn
-
-git fetch "gitee" main:main
-
+git fetch "origin" main:main
 git.exe push --all --progress "gitee"
-
 git.exe push --all --progress "gitlab"
-
 git.exe push --all --progress "jihulab"
-
 git.exe push --all --progress "github"
-
 git.exe push --all --progress "gitcode"
-
 git.exe push --all --progress "gitlink"
-
 cd ..
-
 git.exe fetch -v --progress "origin"
-
 git.exe push --all --progress "origin"
-
 </details>
