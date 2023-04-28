@@ -34,3 +34,15 @@
 	path = metrics-server
 	url = ../metrics-server.git
 	branch = main
+[submodule "prometheus-webhook"]
+	path = prometheus-webhook
+	url = ../prometheus-webhook.git
+	branch = main
+[submodule "prometheus-adapter"]
+	path = prometheus-adapter
+	url = ../prometheus-adapter.git
+	branch = main
+[submodule "kube-state-metrics"]
+	path = kube-state-metrics
+	url = ../kube-state-metrics.git
+	branch = main
