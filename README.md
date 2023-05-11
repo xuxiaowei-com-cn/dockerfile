@@ -29,12 +29,13 @@
 7. [registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper Docker 镜像 hub.docker.com 站点](https://gitee.com/xuxiaowei-com-cn/gitlab-runner-helper.git)
 8. [golang-alpine-glibc](https://gitee.com/xuxiaowei-com-cn/golang-alpine-glibc)
 9. [registry.k8s.io/kube-state-metrics/kube-state-metrics Docker 镜像 hub.docker.com 站点](https://gitee.com/xuxiaowei-com-cn/kube-state-metrics.git)
-10. [registry.k8s.io/metrics-server/metrics-server Docker 镜像 hub.docker.com 站点](https://gitee.com/xuxiaowei-com-cn/metrics-server.git)
-11. [墨菲安全 murphysec docker 版](https://gitee.com/xuxiaowei-com-cn/murphysec.git)
-12. [registry.k8s.io/prometheus-adapter/prometheus-adapter Docker 镜像 hub.docker.com 站点](https://gitee.com/xuxiaowei-com-cn/prometheus-adapter.git)
-13. [prometheus 普罗米修斯 Webhook](https://gitee.com/xuxiaowei-com-cn/prometheus-webhook.git)
-14. [阿里巴巴 面向云原生微服务的高可用流控防护组件 docker 版](https://gitee.com/xuxiaowei-com-cn/sentinel.git)
-15. [龙蜥 Anolisos Subversion（SVN） docker 镜像](https://gitee.com/xuxiaowei-com-cn/svn.git)
+10. [maven-mysql-client](https://gitee.com/xuxiaowei-com-cn/maven-mysql-client.git)
+11. [registry.k8s.io/metrics-server/metrics-server Docker 镜像 hub.docker.com 站点](https://gitee.com/xuxiaowei-com-cn/metrics-server.git)
+12. [墨菲安全 murphysec docker 版](https://gitee.com/xuxiaowei-com-cn/murphysec.git)
+13. [registry.k8s.io/prometheus-adapter/prometheus-adapter Docker 镜像 hub.docker.com 站点](https://gitee.com/xuxiaowei-com-cn/prometheus-adapter.git)
+14. [prometheus 普罗米修斯 Webhook](https://gitee.com/xuxiaowei-com-cn/prometheus-webhook.git)
+15. [阿里巴巴 面向云原生微服务的高可用流控防护组件 docker 版](https://gitee.com/xuxiaowei-com-cn/sentinel.git)
+16. [龙蜥 Anolisos Subversion（SVN） docker 镜像](https://gitee.com/xuxiaowei-com-cn/svn.git)
 
 ## 子模块 submodule
 
@@ -52,6 +53,7 @@ git submodule add -b main ../git.git git
 git submodule add -b main ../gitlab-runner-helper.git gitlab-runner-helper
 git submodule add -b main ../golang-alpine-glibc.git golang-alpine-glibc
 git submodule add -b main ../kube-state-metrics.git kube-state-metrics
+git submodule add -b main ../maven-mysql-client.git maven-mysql-client
 git submodule add -b main ../metrics-server.git metrics-server
 git submodule add -b main ../murphysec.git murphysec
 git submodule add -b main ../prometheus-adapter.git prometheus-adapter

@@ -34,6 +34,10 @@
 	path = kube-state-metrics
 	url = ../kube-state-metrics.git
 	branch = main
+[submodule "maven-mysql-client"]
+	path = maven-mysql-client
+	url = ../svn.git
+	branch = main
 [submodule "metrics-server"]
 	path = metrics-server
 	url = ../metrics-server.git
