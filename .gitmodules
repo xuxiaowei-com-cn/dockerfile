@@ -62,3 +62,7 @@
 	path = svn
 	url = ../svn.git
 	branch = main
+[submodule "node-rpm"]
+	path = node-rpm
+	url = ../node-rpm.git
+	branch = main

@@ -60,6 +60,7 @@ git submodule add -b main ../prometheus-adapter.git prometheus-adapter
 git submodule add -b main ../prometheus-webhook.git prometheus-webhook
 git submodule add -b main ../sentinel.git sentinel
 git submodule add -b main ../svn.git svn
+git submodule add -b main ../node-rpm.git node-rpm
 ```
 
 ## 克隆 clone
