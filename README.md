@@ -36,6 +36,8 @@
 14. [prometheus 普罗米修斯 Webhook](https://gitee.com/xuxiaowei-com-cn/prometheus-webhook.git)
 15. [阿里巴巴 面向云原生微服务的高可用流控防护组件 docker 版](https://gitee.com/xuxiaowei-com-cn/sentinel.git)
 16. [龙蜥 Anolisos Subversion（SVN） docker 镜像](https://gitee.com/xuxiaowei-com-cn/svn.git)
+17. [keepalived](https://gitee.com/xuxiaowei-com-cn/keepalived.git)
+18. [debian](https://gitee.com/xuxiaowei-com-cn/debian.git)
 
 ## 子模块 submodule
 
@@ -61,6 +63,8 @@ git submodule add -b main ../prometheus-webhook.git prometheus-webhook
 git submodule add -b main ../sentinel.git sentinel
 git submodule add -b main ../svn.git svn
 git submodule add -b main ../node-rpm.git node-rpm
+git submodule add -b main ../keepalived.git keepalived
+git submodule add -b main ../debian.git debian
 ```
 
 ## 克隆 clone

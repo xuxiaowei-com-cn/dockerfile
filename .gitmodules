@@ -66,3 +66,11 @@
 	path = node-rpm
 	url = ../node-rpm.git
 	branch = main
+[submodule "keepalived"]
+	path = keepalived
+	url = ../keepalived.git
+	branch = main
+[submodule "debian"]
+	path = debian
+	url = ../debian.git
+	branch = main
