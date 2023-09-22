@@ -65,6 +65,7 @@ git submodule add -b main ../svn.git svn
 git submodule add -b main ../node-rpm.git node-rpm
 git submodule add -b main ../keepalived.git keepalived
 git submodule add -b main ../debian.git debian
+git submodule add -b main ../golang.git golang
 ```
 
 ## 克隆 clone
