@@ -6,9 +6,17 @@
 	path = centos7-glibc
 	url = ../centos7-glibc.git
 	branch = main
-[submodule "dragonwell8"]
-	path = dragonwell8
-	url = ../dragonwell8.git
+[submodule "debian"]
+	path = debian
+	url = ../debian.git
+	branch = main
+[submodule "docker-in-docker"]
+	path = docker-in-docker
+	url = ../docker-in-docker.git
+	branch = main
+[submodule "dragonwell"]
+	path = dragonwell
+	url = ../dragonwell.git
 	branch = main
 [submodule "dragonwell11"]
 	path = dragonwell11
@@ -18,6 +26,10 @@
 	path = dragonwell17
 	url = ../dragonwell17.git
 	branch = main
+[submodule "dragonwell8"]
+	path = dragonwell8
+	url = ../dragonwell8.git
+	branch = main
 [submodule "git"]
 	path = git
 	url = ../git.git
@@ -26,17 +38,25 @@
 	path = gitlab-runner-helper
 	url = ../gitlab-runner-helper.git
 	branch = main
+[submodule "golang"]
+	path = golang
+	url = ../golang.git
+	branch = main
 [submodule "golang-alpine-glibc"]
 	path = golang-alpine-glibc
 	url = ../golang-alpine-glibc.git
 	branch = main
+[submodule "java"]
+	path = java
+	url = ../java.git
+	branch = main
+[submodule "keepalived"]
+	path = keepalived
+	url = ../keepalived.git
+	branch = main
 [submodule "kube-state-metrics"]
 	path = kube-state-metrics
 	url = ../kube-state-metrics.git
-	branch = main
-[submodule "maven-mysql-client"]
-	path = maven-mysql-client
-	url = ../svn.git
 	branch = main
 [submodule "metrics-server"]
 	path = metrics-server
@@ -45,6 +65,18 @@
 [submodule "murphysec"]
 	path = murphysec
 	url = ../murphysec.git
+	branch = main
+[submodule "nginx"]
+	path = nginx
+	url = ../nginx.git
+	branch = main
+[submodule "node-dpkg-fakeroot-rpm"]
+	path = node-dpkg-fakeroot-rpm
+	url = ../node-dpkg-fakeroot-rpm.git
+	branch = main
+[submodule "node-rpm"]
+	path = node-rpm
+	url = ../node-rpm.git
 	branch = main
 [submodule "prometheus-adapter"]
 	path = prometheus-adapter
@@ -61,36 +93,4 @@
 [submodule "svn"]
 	path = svn
 	url = ../svn.git
-	branch = main
-[submodule "node-rpm"]
-	path = node-rpm
-	url = ../node-rpm.git
-	branch = main
-[submodule "keepalived"]
-	path = keepalived
-	url = ../keepalived.git
-	branch = main
-[submodule "debian"]
-	path = debian
-	url = ../debian.git
-	branch = main
-[submodule "golang"]
-	path = golang
-	url = ../golang.git
-	branch = main
-[submodule "java"]
-	path = java
-	url = ../java.git
-	branch = main
-[submodule "dragonwell"]
-	path = dragonwell
-	url = ../dragonwell.git
-	branch = main
-[submodule "node-dpkg-fakeroot-rpm"]
-	path = node-dpkg-fakeroot-rpm
-	url = ../node-dpkg-fakeroot-rpm.git
-	branch = main
-[submodule "docker-in-docker"]
-	path = docker-in-docker
-	url = ../docker-in-docker.git
 	branch = main
