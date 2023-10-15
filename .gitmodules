@@ -78,3 +78,19 @@
 	path = golang
 	url = ../golang.git
 	branch = main
+[submodule "java"]
+	path = java
+	url = ../java.git
+	branch = main
+[submodule "dragonwell"]
+	path = dragonwell
+	url = ../dragonwell.git
+	branch = main
+[submodule "node-dpkg-fakeroot-rpm"]
+	path = node-dpkg-fakeroot-rpm
+	url = ../node-dpkg-fakeroot-rpm.git
+	branch = main
+[submodule "docker-in-docker"]
+	path = docker-in-docker
+	url = ../docker-in-docker.git
+	branch = main

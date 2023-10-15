@@ -48,24 +48,28 @@
 ```shell
 git submodule add -b main ../alpine-glibc.git alpine-glibc
 git submodule add -b main ../centos7-glibc.git centos7-glibc
+git submodule add -b main ../debian.git debian
+git submodule add -b main ../docker-in-docker.git docker-in-docker
+git submodule add -b main ../dragonwell.git dragonwell
 git submodule add -b main ../dragonwell8.git dragonwell8
 git submodule add -b main ../dragonwell11.git dragonwell11
 git submodule add -b main ../dragonwell17.git dragonwell17
 git submodule add -b main ../git.git git
 git submodule add -b main ../gitlab-runner-helper.git gitlab-runner-helper
+git submodule add -b main ../golang.git golang
 git submodule add -b main ../golang-alpine-glibc.git golang-alpine-glibc
+git submodule add -b main ../java.git java
+git submodule add -b main ../keepalived.git keepalived
 git submodule add -b main ../kube-state-metrics.git kube-state-metrics
 git submodule add -b main ../maven-mysql-client.git maven-mysql-client
 git submodule add -b main ../metrics-server.git metrics-server
 git submodule add -b main ../murphysec.git murphysec
+git submodule add -b main ../node-dpkg-fakeroot-rpm.git node-dpkg-fakeroot-rpm
+git submodule add -b main ../node-rpm.git node-rpm
 git submodule add -b main ../prometheus-adapter.git prometheus-adapter
 git submodule add -b main ../prometheus-webhook.git prometheus-webhook
 git submodule add -b main ../sentinel.git sentinel
 git submodule add -b main ../svn.git svn
-git submodule add -b main ../node-rpm.git node-rpm
-git submodule add -b main ../keepalived.git keepalived
-git submodule add -b main ../debian.git debian
-git submodule add -b main ../golang.git golang
 ```
 
 ## 克隆 clone
