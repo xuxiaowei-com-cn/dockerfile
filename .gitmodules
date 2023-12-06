@@ -98,3 +98,7 @@
 	path = maven-mysql-client
 	url = ../maven-mysql-client.git
 	branch = main
+[submodule "kaniko"]
+	path = kaniko
+	url = ../kaniko.git
+	branch = main

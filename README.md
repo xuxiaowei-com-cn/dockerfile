@@ -33,17 +33,18 @@
 11. [golang](https://gitee.com/xuxiaowei-com-cn/golang.git)
 12. [golang-alpine-glibc](https://gitee.com/xuxiaowei-com-cn/golang-alpine-glibc.git)
 13. [java](https://gitee.com/xuxiaowei-com-cn/java.git)
-14. [keepalived](https://gitee.com/xuxiaowei-com-cn/keepalived.git)
-15. [kube-state-metrics](https://gitee.com/xuxiaowei-com-cn/kube-state-metrics.git)
-16. [metrics-server](https://gitee.com/xuxiaowei-com-cn/metrics-server.git)
-17. [墨菲安全 murphysec docker 版](https://gitee.com/xuxiaowei-com-cn/murphysec.git)
-18. [nginx](https://gitee.com/xuxiaowei-com-cn/nginx.git)
-19. [node-dpkg-fakeroot-rpm](https://gitee.com/xuxiaowei-com-cn/node-dpkg-fakeroot-rpm.git)
-20. [node-rpm](https://gitee.com/xuxiaowei-com-cn/node-rpm.git)
-21. [prometheus-adapter](https://gitee.com/xuxiaowei-com-cn/prometheus-adapter.git)
-22. [prometheus-webhook](https://gitee.com/xuxiaowei-com-cn/prometheus-webhook.git)
-23. [阿里巴巴 面向云原生微服务的高可用流控防护组件 docker 版](https://gitee.com/xuxiaowei-com-cn/sentinel.git)
-24. [svn](https://gitee.com/xuxiaowei-com-cn/svn.git)
+14. [kaniko](https://gitee.com/xuxiaowei-com-cn/kaniko)
+15. [keepalived](https://gitee.com/xuxiaowei-com-cn/keepalived.git)
+16. [kube-state-metrics](https://gitee.com/xuxiaowei-com-cn/kube-state-metrics.git)
+17. [metrics-server](https://gitee.com/xuxiaowei-com-cn/metrics-server.git)
+18. [墨菲安全 murphysec docker 版](https://gitee.com/xuxiaowei-com-cn/murphysec.git)
+19. [nginx](https://gitee.com/xuxiaowei-com-cn/nginx.git)
+20. [node-dpkg-fakeroot-rpm](https://gitee.com/xuxiaowei-com-cn/node-dpkg-fakeroot-rpm.git)
+21. [node-rpm](https://gitee.com/xuxiaowei-com-cn/node-rpm.git)
+22. [prometheus-adapter](https://gitee.com/xuxiaowei-com-cn/prometheus-adapter.git)
+23. [prometheus-webhook](https://gitee.com/xuxiaowei-com-cn/prometheus-webhook.git)
+24. [阿里巴巴 面向云原生微服务的高可用流控防护组件 docker 版](https://gitee.com/xuxiaowei-com-cn/sentinel.git)
+25. [svn](https://gitee.com/xuxiaowei-com-cn/svn.git)
 
 ## 子模块 submodule
 
@@ -65,6 +66,7 @@ git submodule add -b main ../gitlab-runner-helper.git gitlab-runner-helper
 git submodule add -b main ../golang.git golang
 git submodule add -b main ../golang-alpine-glibc.git golang-alpine-glibc
 git submodule add -b main ../java.git java
+git submodule add -b main ../kaniko.git kaniko
 git submodule add -b main ../keepalived.git keepalived
 git submodule add -b main ../kube-state-metrics.git kube-state-metrics
 git submodule add -b main ../maven-mysql-client.git maven-mysql-client
