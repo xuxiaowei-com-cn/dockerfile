@@ -94,3 +94,7 @@
 	path = svn
 	url = ../svn.git
 	branch = main
+[submodule "maven-mysql-client"]
+	path = maven-mysql-client
+	url = ../maven-mysql-client.git
+	branch = main
